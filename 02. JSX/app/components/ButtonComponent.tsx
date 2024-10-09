@@ -1,4 +1,9 @@
 // https://reactnative.dev/docs/button
+// 从 react-native 模块中导入常用的 UI 组件
+// Text: 用于显示文本
+// View: 用于布局容器，可以嵌套其他组件
+// Button: 提供标准按钮功能
+// Pressable: 可以创建可触摸区域，并在按下时提供反馈
 import { Text, View, Button, Pressable } from "react-native";
 
 const ButtonComponent = () => {

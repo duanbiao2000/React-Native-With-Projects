@@ -2,7 +2,7 @@ import { Text, View } from "react-native";
 
 const DynamicContent = () => {
   const username = "HuXn";
-  const multiply = (a: number, b: number) => a + b;
+  const multiply = (a: number, b: number) => a * b;
   let me = { name: "huxn", age: 22 };
 
   return (
